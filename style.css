@@ -1,0 +1,373 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+header {
+    background-color: #0078d7;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: white;
+    color:black;
+    padding: 2px 4px;
+    
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }  
+
+.nav-links {
+    list-style: none;
+    display: flex;      
+    gap: 20px;          
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a {
+    color: rgb(59, 127, 216);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 0, 255);
+}
+
+main {
+    margin-top: 50px;
+}
+
+.feature-card {
+    background: white;
+    
+}
+.feature-card h2 {
+    color:  rgb(59, 127, 216);
+    
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #9000a3;
+}
+
+
+/*Nanny*/
+h4{
+  color: #0078d7;
+}
+h1{
+  color: white;
+}
+.page-title {
+    color: rgb(59, 127, 216);
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial;
+    background: #fcfbfa;
+    text-align:center;
+    padding: 20px;
+}
+
+.nanny-container {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nanny-card {
+   
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+     text-align:center;
+}
+
+.nanny-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background: #1da851;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+    .nanny-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/*24hour service*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-page{
+    background-color: #fcfbfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.service-container {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    border-top: 5px solid #5fa0a4;
+}
+
+.icon-badge {
+    background-color: #f7ede2;
+    color: #e78869;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(231, 136, 105, 0.15);
+}
+
+.service-container h2 {
+    color: #333;           
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+}
+
+.service-container p {
+    color: #666;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #5fa0a4;
+    color: white;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #4b8387;
+    transform: translateY(-2px);
+}
+/*Contact Us*/
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: #5fa0a4;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: #666;
+}
+
+.contact-card {
+    display: block;
+    background: white;
+    text-decoration: none;
+    color: #333;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.contact-card i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.fa-phone {
+    color: #007bff;
+}
+
+.fa-whatsapp {
+    color: #25D366;
+}
+
+.fa-envelope {
+    color: #e78869;
+}
+
+.home-btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #5fa0a4;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.home-btn:hover {
+    background: #4b8387;
+}
+/*Reviews*/
+body {
+    font-family: Arial;
+    background: #fcfbfa;
+    padding: 20px;
+    text-align: center;
+}
+
+.review-page {
+    max-width: 700px;
+    margin: auto;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #5fa0a4;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.review-card {
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.review-actions {
+    margin-top: 10px;
+}
+
+.review-actions button {
+    width: auto;
+    margin-right: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+/* PotNanny*/
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #5fa0a4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4b8387;
+}
+h2{
+  color: #0078d7;
+}
